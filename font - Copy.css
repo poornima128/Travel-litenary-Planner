@@ -1,0 +1,55 @@
+/* FORM ROWS */
+
+.form-row {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.form-row img, .form-row input {
+    vertical-align: middle;
+}
+
+.form-row label input[type="checkbox"] {
+    margin-top: 0;
+    vertical-align: 0;
+}
+
+form .form-row p {
+    padding-left: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/* FORM LABELS */
+
+label {
+    font-weight: normal;
+    color: #666;
+    font-size: 13px;
+}
+
+.required label, label.required {
+    font-weight: bold;
+    color: #333;
+}
+
+/* RADIO BUTTONS */
+
+form ul.radiolist li {
+    list-style-type: none;
+}
+
+form ul.radiolist label {
+    float: none;
+    display: inline;
+}
+
+form ul.radiolist input[type="radio"] {
+    margin: -2px 4px 0 0;
+    padd…
+
+

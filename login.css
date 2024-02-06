@@ -1,0 +1,59 @@
+body {
+    direction: rtl;
+}
+
+/* LOGIN */
+
+.login .form-row {
+    float: right;
+}
+
+.login .form-row label {
+    float: right;
+    padding-left: 0.5em;
+    padding-right: 0;
+    text-align: left;
+}
+
+.login .submit-row {
+    clear: both;
+    padding: 1em 9.4em 0 0;
+}
+
+/* GLOBAL */
+
+th {
+    text-align: right;
+}
+
+.module h2, .module caption {
+    text-align: right;
+}
+
+.module ul, .module ol {
+    margin-left: 0;
+    margin-right: 1.5em;
+}
+
+.viewlink, .addlink, .changelink {
+    padding-left: 0;
+    padding-right: 16px;
+    background-position: 100% 1px;
+}
+
+.deletelink {
+    padding-left: 0;
+    padding-right: 16px;
+    background-position: 100% 1px;
+}
+
+.object-tools {
+    float: left;
+}
+
+thead th:first-child,
+tfoot td:first-child {
+    border-left: none;
+}
+
+/* …

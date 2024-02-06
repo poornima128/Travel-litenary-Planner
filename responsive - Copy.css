@@ -1,0 +1,54 @@
+ /* Tablets */
+
+input[type="submit"], button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+@media (max-width: 1024px) {
+    /* Basic */
+
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
+
+    td, th {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .small {
+        font-size: 12px;
+    }
+
+    /* Layout */
+
+    #container {
+        min-width: 0;
+    }
+
+    #content {
+        padding: 20px 30px 30px;
+    }
+
+    div.breadcrumbs {
+        padding: 10px 30px;
+    }
+
+    /* Header */
+
+    #header {
+        flex-direction: column;
+        padding: 15px 30px;
+        justify-content: flex-start;
+    }
+
+    #branding h1 {
+        margin: 0 0 8px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    #user-tools {
+        margin: 0;
+    }
